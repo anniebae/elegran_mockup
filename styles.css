@@ -1,6 +1,15 @@
 body {
   background-color: rgb(7, 36, 63);  
   margin-left: 0;
+  font-family: 'Raleway';
+}
+
+nav {
+  right: 0;
+}
+
+nav ul li{
+  display: inline-block;
 }
 
 #inbox-wrapper {
@@ -26,3 +35,36 @@ h1 {
   position: relative;
   background-color: #fff;
 }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.user-info {
+  padding: 1.5%;
+  color: rgb(102, 102, 102);
+  font-weight: 100;
+}
+
+.user-timestamp {
+  position: absolute;
+  right: 0;
+  margin-top: -2%;
+  margin-right: 1.5%;
+  font-weight: 900;
+}
+
+/*.list-group-item {
+  position: absolute;
+}*/
+
+
+
+.list-group>.list-group-item:nth-child(even){
+    background-color: rgb(242, 242, 242);
+}​
