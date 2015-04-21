@@ -1,5 +1,5 @@
 body {
-  background: rgb(7, 36, 63);  
+  background: rgb(7, 36, 63);
   margin-left: 0;
   font-family: 'Raleway';
 }
@@ -24,14 +24,22 @@ nav ul li{
   overflow: hidden;
 }
 
-.footer h2 {
+.footer button.messages {
   display: inline-block;
-  width: 100%;
+  width: 84%;
+  height: 50px;
   margin-right: -50%;
-  margin-left: 2%;
+  margin-left: 2%; 
+  background: rgb(7, 36, 63);
+  border: none;
+  background: rgb(7, 36, 63);
+  color: white;
+  font-size: 18px;
+  text-align: left;
 }
 
-.footer button {
+
+.footer button.send {
   background-color: rgb(65, 158, 255);
   border: none;
   color: white;
