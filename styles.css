@@ -1,7 +1,15 @@
 body {
-  background-color: rgb(7, 36, 63);  
+  background: rgb(7, 36, 63);  
   margin-left: 0;
   font-family: 'Raleway';
+}
+
+h2 {
+  color: #fff;
+}
+
+a {
+  color: rgb(13, 94, 178);
 }
 
 nav {
@@ -58,12 +66,6 @@ a {
   margin-right: 1.5%;
   font-weight: 900;
 }
-
-/*.list-group-item {
-  position: absolute;
-}*/
-
-
 
 .list-group>.list-group-item:nth-child(even){
     background-color: rgb(242, 242, 242);
