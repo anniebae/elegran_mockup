@@ -26,7 +26,7 @@ nav ul li{
 
 .footer button.messages {
   display: inline-block;
-  width: 84%;
+  width: 80%;
   height: 50px;
   margin-right: -50%;
   margin-left: 2%; 
@@ -36,8 +36,14 @@ nav ul li{
   color: white;
   font-size: 18px;
   text-align: left;
+  float: left;
 }
 
+img.arrow {
+  height: 35px;
+  float: right;
+  margin-top: -30px;
+}
 
 .footer button.send {
   background-color: rgb(65, 158, 255);
