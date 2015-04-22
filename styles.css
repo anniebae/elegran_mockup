@@ -20,7 +20,8 @@ a {
   display: inline-block;
   position: relative;
   float: right;
-  margin: 0 70px 3px 0;
+  margin: 0 70px 3px 50px;
+  margin-right: 21px;
 }
 
 .nav-img {
@@ -42,6 +43,23 @@ a {
   opacity: 0.5;
   padding-bottom: 31px;
   border-bottom: 10px solid green;
+}
+
+.section-header {
+  overflow: hidden;
+  width: 100%;
+}
+
+h1.category {
+  float: left;
+  margin-bottom: 1px;
+}
+
+h3.range {
+  float: right;
+  color: white;
+  margin-bottom: 0;
+  margin-right: 2.5%;
 }
 
 .footer {
@@ -69,6 +87,12 @@ img.arrow {
   margin-top: -30px;
 }
 
+.range-arrow {
+  height: 35px;
+  float: right;
+  background-color: rgb(5, 35, 64);
+}
+
 .footer button.send {
   background-color: rgb(65, 158, 255);
   border: none;
@@ -81,7 +105,7 @@ img.arrow {
 }
 
 .inbox-wrapper {
-  height: 85vh;
+  height: 84vh;
   width: 100vw;
   margin: 0;
   left: 0;
@@ -93,7 +117,6 @@ h1 {
   color: white;
   font-family: arial;
   margin-left: 2%;
-  padding-top: 2%;
 }
 
 #message-container {
@@ -102,6 +125,7 @@ h1 {
   margin: auto;
   position: relative;
   background-color: #fff;
+  margin-top: -19px;
 }
 
 ul {
